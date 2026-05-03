@@ -1,0 +1,8 @@
+{
+  "mcp": {
+    "test-server": {
+      "command": "test",
+      "args": ["--test"]
+    }
+  }
+}

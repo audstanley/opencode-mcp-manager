@@ -1,0 +1,21 @@
+{
+  "mcp": {
+    "llama-api": {
+      "type": "local",
+      "command": "npx",
+      "args": ["-y", "@ai-sdk/llama-api@latest"]
+    },
+    "brave-search": {
+      "type": "local",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search@latest"],
+      "enabled": true
+    },
+    "memory": {
+      "type": "local",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory@latest"],
+      "enabled": false
+    }
+  }
+}
